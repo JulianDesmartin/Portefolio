@@ -31,7 +31,7 @@
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
+        <header class="masthead  text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="assets/img/avaaatars.png" alt="" /><!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">Portfolio de Julian DESMARTIN</h1>
@@ -45,6 +45,26 @@
                 <p class="masthead-subheading font-weight-light mb-0">Etudiant en DUT Informatique</p>
             </div>
         </header>
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">A propos</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ml-auto"><p class="lead">Je suis un étudiant de 2éme année de DUT INFO à L’IUT de Limoges, cherchant à aquérir plus d’expériences dans le monde de l’informatique afin de mettre les compétences que j’ai acquises lors de mes études à profit.</p></div>
+                    <div class="col-lg-4 mr-auto"><p class="lead"> Je m’intéresse particulièrement au développement web car c'est sur quoi j'ai le plus travaillé jusqu'ici et j'éspère pouvoir continuer mais études dans ce domaine!</p></div>
+                </div>
+                <!-- About Section Button-->
+
+            </div>
+        </section>
         <!-- Portfolio Section-->
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
@@ -88,24 +108,46 @@
                 </div>
             </div>
         </section>
-        <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
+        <section class="page-section bg-primary text-white portfolio" id="portfolio">
             <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">A propos</h2>
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">projets réalisés</h2>
                 <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
+                <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- About Section Content-->
+                <!-- Portfolio Grid Items-->
                 <div class="row">
-                    <div class="col-lg-4 ml-auto"><p class="lead">Je suis un étudiant de 2éme année de DUT INFO à L’IUT de Limoges, cherchant à aquérir plus d’expériences dans le monde de l’informatique afin de mettre les compétences que j’ai acquises lors de mes études à profit.</p></div>
-                    <div class="col-lg-4 mr-auto"><p class="lead"> Je m’intéresse particulièrement au développement web car c'est sur quoi j'ai le plus travaillé jusqu'ici et j'éspère pouvoir continuer mais études dans ce domaine!</p></div>
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/img4.png" alt="" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/img5.jpg" alt="" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/img6.png" alt="" />
+                        </div>
+                    </div>
                 </div>
-                <!-- About Section Button-->
-
             </div>
         </section>
         <!-- Contact Section-->
@@ -284,16 +326,19 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Wroom</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="" /><!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/img4.png" alt="" /><!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Objectif : réaliser un site de gestion de grand prix de F1 (getsion des pilotes, circuits, classement, etc...)<br>
+                                    Language utilisé : html,css, node js<br>
+                                    Logiciel utilisé : Atom, WAMP<br>
+                                    <a href="https://github.com/JulianDesmartin/Wroom">Lien github</a></p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Fermer</button>
                                 </div>
                             </div>
                         </div>
@@ -313,16 +358,19 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">eWallet</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="" /><!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/img5.jpg" alt="" /><!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Objectif : réalisé une application permetant de stocker virtuellement vos cartes de fidélité<br>
+                                    Language utilisé : java<br>
+                                    Logiciel utilisé : Android studio<br>
+                                    <a href="https://github.com/JulianDesmartin/eWalletProject">Lien github</a></p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Fermer</button>
                                 </div>
                             </div>
                         </div>
@@ -342,16 +390,19 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Le bétisier de l'IUT</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="" /><!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/img6.png" alt="" /><!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Objectif : réaliser un site de gestion d'un bétisier de l'IUT (gestion des citations en fonction des villes, personnes, etc...)<br>
+                                    Language utilisé : html,css, php<br>
+                                    Logiciel utilisé : Atom, WAMP<br>
+                                    <a href="https://github.com/JulianDesmartin/Betisier">Lien github</a></p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Fermer</button>
                                 </div>
                             </div>
                         </div>
